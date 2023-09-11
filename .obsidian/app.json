@@ -1,0 +1,18 @@
+{
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "D. Knowledge/image",
+  "newFileFolderPath": "Daily",
+  "userIgnoreFilters": [
+    "C. Unstored/"
+  ],
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false
+}

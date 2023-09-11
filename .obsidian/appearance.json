@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "theme": "system",
+  "cssTheme": "Sanctum",
+  "enabledCssSnippets": [
+    "xxxx",
+    "GoblinCwl@CSS"
+  ],
+  "baseFontSize": 15
+}
