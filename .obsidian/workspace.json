@@ -58,35 +58,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e98cfd315013424f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B. Forge/机器学习/GPU/GPU优化系列/深入浅出GPU优化系列：reduce优化.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61925fc8a6a2be02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B. Forge/Leetcode 算法总结/数据结构/Leetcode 148. 排序链表(快慢指针和归并排序).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B. Forge/Leetcode 算法总结/数据结构/Leetcode 148. 排序链表(快慢指针和归并排序).md",
+                "file": "B. Forge/How_to_optimize_in_GPU/reduce/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B. Forge/Leetcode 算法总结/数据结构/Leetcode 148. 排序链表(快慢指针和归并排序).md",
+                "file": "B. Forge/How_to_optimize_in_GPU/reduce/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B. Forge/Leetcode 算法总结/数据结构/Leetcode 148. 排序链表(快慢指针和归并排序).md"
+                "file": "B. Forge/How_to_optimize_in_GPU/reduce/README.md"
               }
             }
           },
@@ -247,12 +221,39 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "61925fc8a6a2be02",
+  "active": "0b46f2b6ce6e90df",
   "lastOpenFiles": [
+    "B. Forge/How_to_optimize_in_GPU/elementwise/README.md",
+    "A. Navigation/面试笔记/小红书笔试.md",
+    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_pre.sm_70.cuasm",
+    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_final.sm_70.cuasm",
+    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_comment.sm_70.cuasm",
+    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_cubin.pdf",
+    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/run_build.sh",
+    "B. Forge/How_to_optimize_in_GPU/spmm/spmm.cu",
+    "B. Forge/How_to_optimize_in_GPU/spmv/spmv.cu",
+    "B. Forge/How_to_optimize_in_GPU/sgemv/Sgemv_v2.cu",
+    "B. Forge/How_to_optimize_in_GPU/sgemv/Sgemv_v1.cu",
+    "B. Forge/How_to_optimize_in_GPU/sgemv/Sgemv_v0.cu",
+    "B. Forge/How_to_optimize_in_GPU/sgemv/README.md",
+    "B. Forge/How_to_optimize_in_GPU/sgemm/README.md",
+    "B. Forge/How_to_optimize_in_GPU/reduce/README.md",
+    "B. Forge/How_to_optimize_in_GPU/figure/sgemm.png",
+    "B. Forge/How_to_optimize_in_GPU/figure/reduce.png",
+    "B. Forge/How_to_optimize_in_GPU/README.md",
+    "B. Forge/How_to_optimize_in_GPU-master/sgemv/README.md",
+    "B. Forge/How_to_optimize_in_GPU-master/sgemm/README.md",
+    "B. Forge/How_to_optimize_in_GPU-master/reduce/README.md",
+    "B. Forge/How_to_optimize_in_GPU-master/figure/sgemm.png",
+    "B. Forge/How_to_optimize_in_GPU-master/figure/reduce.png",
+    "B. Forge/How_to_optimize_in_GPU-master/elementwise/README.md",
+    "B. Forge/How_to_optimize_in_GPU-master/README.md",
+    "B. Forge/机器学习/GPU/GPU优化系列/深入浅出GPU优化系列：reduce优化.md",
+    "README.md",
+    "B. Forge/Leetcode 算法总结/数据结构/Leetcode 148. 排序链表(快慢指针和归并排序).md",
     "D. Knowledge/image/Pasted image 20230911151335.png",
     "D. Knowledge/image/Pasted image 20230911151256.png",
     "B. Forge/Leetcode 算法总结/贪心/Leetcode 630. 课程表 III.md",
-    "B. Forge/Leetcode 算法总结/数据结构/Leetcode 148. 排序链表(快慢指针和归并排序).md",
     "D. Knowledge/image/Pasted image 20230911145157.png",
     "D. Knowledge/image/Pasted image 20230911145125.png",
     "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2560. 打家劫舍 IV(二分+dp).md",
@@ -266,35 +267,8 @@
     "B. Forge/Compiler Optimization/MLIR/Torch-MLIR 技术详解.md",
     "Day Planners/Day Planner-20230905.md",
     "B. Forge/机器学习/分布式/PyTorch分布式DPP涉及的基本概念与问题.md",
-    "B. Forge/机器学习/分布式/分布式并行计算(张量并行).md",
-    "B. Forge/机器学习/分布式/分布式并行计算(数据并行).md",
-    "B. Forge/机器学习/GPU/cuda 内存层次结构.md",
-    "B. Forge/机器学习/GPU/Double Buffering 技术.md",
-    "B. Forge/机器学习/GPU/GPU优化系列/深入浅出GPU优化系列：reduce优化.md",
-    "B. Forge/Compiler Optimization/MLIR/TPU-MLIR基础知识.md",
-    "Day Planners/Day Planner-20230904.md",
-    "B. Forge/Compiler Optimization/MLIR/The PASS improved.md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2518. 好分区的数目(01背包).md",
-    "Day Planners/Day Planner-20230903.md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 6396. 统计整数数目(数位DP).md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2376. 统计特殊整数(数位DP).md",
     "D. Knowledge/image/Pasted image 20230901231324.png",
     "D. Knowledge/image/Pasted image 20230901231055.png",
-    "D. Knowledge/image/Pasted image 20230901230106.png",
-    "D. Knowledge/image/Pasted image 20230901225247.png",
-    "D. Knowledge/image/Pasted image 20230901225236.png",
-    "D. Knowledge/image/Pasted image 20230901224330.png",
-    "D. Knowledge/image/Pasted image 20230901223221.png",
-    "B. Forge/机器学习/GPU/GPU优化系列",
-    "B. Forge/机器学习/分布式",
-    "B. Forge/Compiler Optimization/LLVM",
-    "B. Forge/机器学习/GPU",
-    "B. Forge/机器学习/LLM模型结构",
-    "A. Navigation/C++本源探究/C plus中那点事",
-    "B. Forge/Leetcode 算法总结/题目分类",
-    "B. Forge/MLIR/toy",
-    "B. Forge/Compiler Optimization/MLIR",
-    "B. Forge/机器学习/数据并行",
     "Daily/未命名.canvas",
     "未命名.canvas"
   ]
