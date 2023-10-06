@@ -48,7 +48,7 @@
 
 分类讨论：
 
-- 不选第 *i* 个房屋：$f[i]=f*[i−1]$；
+- 不选第 *i* 个房屋：$f[i]=f[i−1]$；
 - 选第 *i* 个房屋，前提是金额不超过 $mx：f[i]=f[i−2]+1$。
 
 ```c++
@@ -345,7 +345,6 @@ public:
 ```c++
 class Solution {
 public:
-
     long long maxPower(vector<int>& stations, int r, int k) {
         int n = stations.size();
         long sum[n + 1], power[n], diff[n];

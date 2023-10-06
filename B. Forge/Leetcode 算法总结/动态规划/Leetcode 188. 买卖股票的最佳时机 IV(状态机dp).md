@@ -139,6 +139,52 @@ class Solution:
 
 >如果允许交易小数股，在这题的基础上，把初始值 0 改成初始资金，把 +- 改成 \*，最后返回答案的时候减去初始资金。
 
+![[Pasted image 20230916225528.png]]
+
+```c++
+double maxProfit(double origin, vector<double>& prices, int k) {
+    // cache + dfs
+    // int n = prices.size(), cache[n][k+1][2];
+    // function<int(int, int, int)> dfs = [&](int i, int j, int hold) -> int {
+    //     if ( i<0 ) 
+    //         return hold ? -INT_MAX/2 : origin;
+    //     if ( j<0 )
+    //         return -INT_MAX/2;
+    //     if ( cache[i][j][hold]!=-1 )
+    //         return cache[i][j][hold];
+    //     if ( hold )
+    //         return cache[i][j][hold] = max(dfs(i-1, j-1, false)/prices[i], dfs(i-1, j, true));
+    //     return cache[i][j][hold] = max(dfs(i-1, j, true)*prices[i], dfs(i-1, j, false));
+    // };
+
+    // // iteration
+    // int n = prices.size();
+    // double f[n+1][k+2][2];
+    // memset(f, -(double)0x3f, sizeof(f));
+    // for ( int j=0;j<=k+1;++j ) f[0][j][false] = origin;
+    // for ( int i=0;i<n;++i ) {
+    //     for ( int j=0;j<k+1;++j ) {
+    //         f[i+1][j+1][true] = max(f[i][j][false]/prices[i], f[i][j+1][true]);
+    //         f[i+1][j+1][false] = max(f[i][j+1][true]*prices[i], f[i][j+1][false]);
+    //     }
+    // }
+    // return f[n][k+1][false]-origin;
+
+    // space optimized
+    int n = prices.size();
+    double f[k+2][2];
+    memset(f, -(double)0x3f, sizeof(f));
+    for ( int j=0;j<=k+1;++j ) f[j][false] = origin;
+    for ( int i=0;i<n;++i ) {
+        for ( int j=k;j>=0;--j ) {
+            f[j+1][true] = max(f[j][false]/prices[i], f[j+1][true]);
+            f[j+1][false] = max(f[j+1][true]*prices[i], f[j+1][false]);
+        }
+    }
+    return f[k+1][false]-origin;
+}
+```
+
 #### [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)
 
 **不限制次数**

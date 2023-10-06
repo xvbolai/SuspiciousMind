@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0aa8fbc03d80a033",
+        "id": "a94d967a33b8617a",
         "type": "tabs",
         "children": [
           {
-            "id": "a60a60456a41383b",
+            "id": "c14c307acd10c3c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B. Forge/Compiler Optimization/MLIR/Torch-MLIR 技术详解.md",
+                "file": "B. Forge/Leetcode 算法总结/模拟题/Leetcode 2251. 花期内花的数目(二分 or 差分).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,38 +21,12 @@
             }
           },
           {
-            "id": "9331606ff0c6a976",
+            "id": "8c50a87a5b91fa88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2518. 好分区的数目(01背包).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81a57e54f83f8863",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B. Forge/机器学习/Transformer之Pytorch代码讲解.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ec19e6a4eadbdae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A. Navigation/Leetcode 算法总结/模拟题/二分查找问题.md",
+                "file": "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "地板",
+                "query": "LCP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441.5
+    "width": 438.5
   },
   "right": {
     "id": "71aadca8ac892128",
@@ -126,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B. Forge/How_to_optimize_in_GPU/reduce/README.md",
+                "file": "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B. Forge/How_to_optimize_in_GPU/reduce/README.md",
+                "file": "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B. Forge/How_to_optimize_in_GPU/reduce/README.md"
+                "file": "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md"
               }
             }
           },
@@ -193,6 +167,16 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "e9d791b988cd22c6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -204,6 +188,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "code-files:Create Code File": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -221,11 +206,46 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "0b46f2b6ce6e90df",
+  "active": "8c50a87a5b91fa88",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20230911.md",
-    "B. Forge/How_to_optimize_in_GPU/elementwise/README.md",
-    "A. Navigation/面试笔记/小红书笔试.md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2572. 无平方子集计数(0-1背包或子集状态压缩).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 494. 目标和(0-1背包，恰好体积为v价值最大和w).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2742. 给墙壁刷油漆(0-1背包变种---至少装满体积v时最小价值w).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2518. 好分区的数目(01背包).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2538. 最大价值和与最小价值和的差值(树的直径变种).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 902. 最大为 N 的数字组合.md",
+    "B. Forge/Leetcode 算法总结/集合论/从集合论到位运算，常见位运算技巧分类总结！.md",
+    "A. Navigation/Leetcode 算法总结/动态规划/背包问题.md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 322. 零钱兑换(完全背包).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2218. 从栈中取出 K 个硬币的最大面值和(分组背包).md",
+    "B. Forge/Leetcode 算法总结/集合论/Leetcode 1494. 并行课程 II(集合论方法).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 124. 二叉树中的最大路径和(树形dp).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2538. 最大价值和与最小价值和的差值 已解答 困难 相关标签 相关企业 提示.md",
+    "D. Knowledge/image/Pasted image 20231006140305.png",
+    "D. Knowledge/image/Pasted image 20231006140245.png",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2713. 矩阵中严格递增的单元格数.md",
+    "A. Navigation/Leetcode 算法总结/动态规划/其它DP算法.md",
+    "B. Forge/Leetcode 算法总结/树/Leetcode 2127. 参加会议的最多员工数(内向基环树).md",
+    "Day Planners/Day Planner-20231006.md",
+    "B. Forge/Leetcode 算法总结/树/Leet code 1110. 删点成林.md",
+    "B. Forge/Leetcode 算法总结/树/Leetcode 1080. 根到叶路径上的不足节点.md",
+    "D. Knowledge/image/Pasted image 20231005224315.png",
+    "D. Knowledge/image/Pasted image 20231005224238.png",
+    "D. Knowledge/image/Pasted image 20231005223838.png",
+    "D. Knowledge/image/Pasted image 20231005223711.png",
+    "D. Knowledge/image/Pasted image 20231005223641.png",
+    "D. Knowledge/image/Pasted image 20231005223315.png",
+    "D. Knowledge/image/Pasted image 20231005223220.png",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2617. 网格图中最少访问的格子数(DP + 单调栈二分优化).md",
+    "Day Planners/Day Planner-20231005.md",
+    "D. Knowledge/image/Pasted image 20231004231604.png",
+    "B. Forge/Leetcode 算法总结/模拟题/Leetcode 34. 在排序数组中查找元素的第一个和最后一个位置.md",
+    "A. Navigation/C++本源探究/STL源码剖析.md",
+    "A. Navigation/C++本源探究/Linux 高性能编程.md",
+    "A. Navigation/C++本源探究/C++ Concurrency.md",
+    "B. Forge/Leetcode 算法总结/算法子集",
+    "A. Navigation/C++本源探究/STL",
     "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_pre.sm_70.cuasm",
     "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_final.sm_70.cuasm",
     "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_comment.sm_70.cuasm",
@@ -234,41 +254,6 @@
     "B. Forge/How_to_optimize_in_GPU/spmm/spmm.cu",
     "B. Forge/How_to_optimize_in_GPU/spmv/spmv.cu",
     "B. Forge/How_to_optimize_in_GPU/sgemv/Sgemv_v2.cu",
-    "B. Forge/How_to_optimize_in_GPU/sgemv/Sgemv_v1.cu",
-    "B. Forge/How_to_optimize_in_GPU/sgemv/Sgemv_v0.cu",
-    "B. Forge/How_to_optimize_in_GPU/sgemv/README.md",
-    "B. Forge/How_to_optimize_in_GPU/sgemm/README.md",
-    "B. Forge/How_to_optimize_in_GPU/reduce/README.md",
-    "B. Forge/How_to_optimize_in_GPU/figure/sgemm.png",
-    "B. Forge/How_to_optimize_in_GPU/figure/reduce.png",
-    "B. Forge/How_to_optimize_in_GPU/README.md",
-    "B. Forge/How_to_optimize_in_GPU-master/sgemv/README.md",
-    "B. Forge/How_to_optimize_in_GPU-master/sgemm/README.md",
-    "B. Forge/How_to_optimize_in_GPU-master/reduce/README.md",
-    "B. Forge/How_to_optimize_in_GPU-master/figure/sgemm.png",
-    "B. Forge/How_to_optimize_in_GPU-master/figure/reduce.png",
-    "B. Forge/How_to_optimize_in_GPU-master/elementwise/README.md",
-    "B. Forge/How_to_optimize_in_GPU-master/README.md",
-    "B. Forge/机器学习/GPU/GPU优化系列/深入浅出GPU优化系列：reduce优化.md",
-    "README.md",
-    "B. Forge/Leetcode 算法总结/数据结构/Leetcode 148. 排序链表(快慢指针和归并排序).md",
-    "D. Knowledge/image/Pasted image 20230911151335.png",
-    "D. Knowledge/image/Pasted image 20230911151256.png",
-    "B. Forge/Leetcode 算法总结/贪心/Leetcode 630. 课程表 III.md",
-    "D. Knowledge/image/Pasted image 20230911145157.png",
-    "D. Knowledge/image/Pasted image 20230911145125.png",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2560. 打家劫舍 IV(二分+dp).md",
-    "B. Forge/Leetcode 算法总结/模拟题/Leetcode 1439. 有序矩阵中的第 k 个最小数组和.md",
-    "B. Forge/机器学习/LLM模型结构/baichuan-7B.md",
-    "Day Planners/Day Planner-20230910.md",
-    "Day Planners/Day Planner-20230906.md",
-    "B. Forge/机器学习/LLM模型结构/FlashAttention(v1 v2).md",
-    "B. Forge/机器学习/LLM模型结构/PagedAttention.md",
-    "B. Forge/Compiler Optimization/MLIR/Torch-MLIR 技术详解.md",
-    "Day Planners/Day Planner-20230905.md",
-    "B. Forge/机器学习/分布式/PyTorch分布式DPP涉及的基本概念与问题.md",
-    "D. Knowledge/image/Pasted image 20230901231324.png",
-    "D. Knowledge/image/Pasted image 20230901231055.png",
     "Daily/未命名.canvas",
     "未命名.canvas"
   ]

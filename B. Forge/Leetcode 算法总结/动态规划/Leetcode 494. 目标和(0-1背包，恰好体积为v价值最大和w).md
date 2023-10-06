@@ -42,7 +42,7 @@ sum(P) + sum(N) + sum(P) - sum(N) = target + sum(P) + sum(N)
 
 因此，原来的问题已转化为一个求子集的和问题： 找到nums的一个子集 P，使得sum(P) = (target + sum(nums)) / 2
 
-请注意，上面的公式已经证明target + sum(nums)必须是偶数，否则输出为0。
+请注意，上面的公式已经证明$target + sum(nums)$必须是偶数，否则输出为0。
 
 
 ```c++
@@ -63,4 +63,64 @@ public:
         return dp[n];
     }
 };
+```
+
+### 0-1背包三种问题
+
+#### 1. 至多capacity，求方案数或最大价值和。
+
+```python
+@cache
+def dfs(i, c):
+	if i < 0:
+		return 1
+	if c < nums[i]:
+		return dfs(i - 1, c)
+	return dfs(i - 1, c) + dfs(i - 1, c - nums[i])
+
+# 换成递推式
+
+f = [1] * (target + 1)
+
+for x in nums:
+	for c in range(target, x - 1, -1):
+		f[c] = f[c] + f[c - x];
+```
+
+#### 2.恰好capacity，求方案数最大\\最少价值和。
+
+```python
+@cache
+def dfs(i, c):
+	if i < 0:
+		return 1 if c == 0 else 0
+	if c < nums[i]:
+		return dfs(i - 1, c)
+	return dfs(i - 1, c) + dfs(i - 1, c - nums[i])
+
+# 换成递推式
+
+f = [1] + [0] * target
+
+for x in nums:
+	for c in range(target, x - 1, -1):
+		f[c] = f[c] + f[c - x];
+```
+
+#### 2. 至少capacity，求方案数最小价值和。
+
+```python
+@cache
+def dfs(i, c):
+	if i < 0:
+		return 1 if c <= 0 else 0
+	return dfs(i - 1, c) + dfs(i - 1, c - nums[i])
+
+# 换成递推式
+
+f = [1] + [0] * target
+
+for x in nums:
+	for c in range(target, -1, -1):
+		f[c] = f[c] + f[max(c - x, 0)];
 ```
