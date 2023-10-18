@@ -14,7 +14,7 @@
 a | b 和 a & b 1的个数实则等于a 的1的个数和b的1的个数之和。
 
 根据容斥原理，可以看成一个数组。
-$$ \left| A \cup B \right | = \left | A\right | + \left| B \right | + \left | A \cap B \right |  $$
+$$ \left| A \cup B \right | = \left | A\right | + \left| B \right | - \left | A \cap B \right |  $$
 
 
 ```c++

@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c14c307acd10c3c8",
+            "id": "b7ddf400d771324a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B. Forge/Leetcode 算法总结/模拟题/Leetcode 2251. 花期内花的数目(二分 or 差分).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c50a87a5b91fa88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md",
+                "file": "B. Forge/Leetcode 算法总结/数据结构/Leetcode 2530. 执行 K 次操作后的最大分数(堆排序).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LCP",
+                "query": "- 1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.5
+    "width": 525.5
   },
   "right": {
     "id": "71aadca8ac892128",
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md",
+                "file": "B. Forge/Leetcode 算法总结/数据结构/Leetcode 2530. 执行 K 次操作后的最大分数(堆排序).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md",
+                "file": "B. Forge/Leetcode 算法总结/数据结构/Leetcode 2530. 执行 K 次操作后的最大分数(堆排序).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md"
+                "file": "B. Forge/Leetcode 算法总结/数据结构/Leetcode 2530. 执行 K 次操作后的最大分数(堆排序).md"
               }
             }
           },
@@ -206,54 +192,54 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "8c50a87a5b91fa88",
+  "active": "b7ddf400d771324a",
   "lastOpenFiles": [
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2572. 无平方子集计数(0-1背包或子集状态压缩).md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2573. 找出对应 LCP 矩阵的字符串(思维构造题).md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 494. 目标和(0-1背包，恰好体积为v价值最大和w).md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2742. 给墙壁刷油漆(0-1背包变种---至少装满体积v时最小价值w).md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2518. 好分区的数目(01背包).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2560. 打家劫舍 IV(二分+dp).md",
+    "B. Forge/Leetcode 算法总结/数据结构/Leetcode 2530. 执行 K 次操作后的最大分数(堆排序).md",
+    "Day Planners/Day Planner-20231018.md",
     "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2538. 最大价值和与最小价值和的差值(树的直径变种).md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 902. 最大为 N 的数字组合.md",
-    "B. Forge/Leetcode 算法总结/集合论/从集合论到位运算，常见位运算技巧分类总结！.md",
-    "A. Navigation/Leetcode 算法总结/动态规划/背包问题.md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 322. 零钱兑换(完全背包).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2518. 好分区的数目(0-1背包).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2407. 最长递增子序列 II.md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2376. 统计特殊整数(数位DP).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2312. 卖木头块(线性DP).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2305. 公平分发饼干(子集状态DP).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2272. 最大波动的子字符串(线性 DP).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2246. 相邻字符不同的最长路径(树形dp 树的直径).md",
     "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2218. 从栈中取出 K 个硬币的最大面值和(分组背包).md",
-    "B. Forge/Leetcode 算法总结/集合论/Leetcode 1494. 并行课程 II(集合论方法).md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 124. 二叉树中的最大路径和(树形dp).md",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2538. 最大价值和与最小价值和的差值 已解答 困难 相关标签 相关企业 提示.md",
-    "D. Knowledge/image/Pasted image 20231006140305.png",
-    "D. Knowledge/image/Pasted image 20231006140245.png",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2713. 矩阵中严格递增的单元格数.md",
-    "A. Navigation/Leetcode 算法总结/动态规划/其它DP算法.md",
-    "B. Forge/Leetcode 算法总结/树/Leetcode 2127. 参加会议的最多员工数(内向基环树).md",
-    "Day Planners/Day Planner-20231006.md",
-    "B. Forge/Leetcode 算法总结/树/Leet code 1110. 删点成林.md",
-    "B. Forge/Leetcode 算法总结/树/Leetcode 1080. 根到叶路径上的不足节点.md",
-    "D. Knowledge/image/Pasted image 20231005224315.png",
-    "D. Knowledge/image/Pasted image 20231005224238.png",
-    "D. Knowledge/image/Pasted image 20231005223838.png",
-    "D. Knowledge/image/Pasted image 20231005223711.png",
-    "D. Knowledge/image/Pasted image 20231005223641.png",
-    "D. Knowledge/image/Pasted image 20231005223315.png",
-    "D. Knowledge/image/Pasted image 20231005223220.png",
-    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2617. 网格图中最少访问的格子数(DP + 单调栈二分优化).md",
-    "Day Planners/Day Planner-20231005.md",
-    "D. Knowledge/image/Pasted image 20231004231604.png",
-    "B. Forge/Leetcode 算法总结/模拟题/Leetcode 34. 在排序数组中查找元素的第一个和最后一个位置.md",
-    "A. Navigation/C++本源探究/STL源码剖析.md",
-    "A. Navigation/C++本源探究/Linux 高性能编程.md",
-    "A. Navigation/C++本源探究/C++ Concurrency.md",
-    "B. Forge/Leetcode 算法总结/算法子集",
-    "A. Navigation/C++本源探究/STL",
-    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_pre.sm_70.cuasm",
-    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_final.sm_70.cuasm",
-    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_comment.sm_70.cuasm",
-    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/sgemm_cubin.pdf",
-    "B. Forge/How_to_optimize_in_GPU/sgemm/asm/run_build.sh",
-    "B. Forge/How_to_optimize_in_GPU/spmm/spmm.cu",
-    "B. Forge/How_to_optimize_in_GPU/spmv/spmv.cu",
-    "B. Forge/How_to_optimize_in_GPU/sgemv/Sgemv_v2.cu",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2209. 用地毯覆盖后的最少白色砖块(线性DP).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2188. 完成比赛的最少时间.md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 2172. 数组的最大与和(状态DP).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 1742. 盒子中小球的最大数量(数位DP).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 1713. 得到子序列的最少操作次数(LCS LIS).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 1483. 树节点的第 K 个祖先(Binary Lifting).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 1444. 切披萨的方案数.md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 1388. 3n 块披萨(打家劫舍Ⅱ).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 1079. 活字印刷.md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 1039. 多边形三角剖分的最低得分(区间dp).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 902. 最大为 N 的数字组合.md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 494. 目标和(0-1背包，恰好体积为v价值最大和w).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 337. 打家劫舍 III(树形dp).md",
+    "B. Forge/Leetcode 算法总结/动态规划/Leetcode 322. 零钱兑换(完全背包).md",
+    "D. Knowledge/image/Pasted image 20231016215948.png",
+    "D. Knowledge/image/Pasted image 20231016215912.png",
+    "D. Knowledge/image/Pasted image 20231016215838.png",
+    "D. Knowledge/image/Pasted image 20231016215637.png",
+    "D. Knowledge/image/Pasted image 20231016215530.png",
+    "D. Knowledge/image/Pasted image 20231016215504.png",
+    "D. Knowledge/image/Pasted image 20231016215312.png",
+    "D. Knowledge/image/Pasted image 20231016215242.png",
+    "D. Knowledge/image/Pasted image 20231016095422.png",
+    "D. Knowledge/image/Pasted image 20231013163707.png",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main/scheduler/vectorize.py",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main.zip",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main/torchscript/trace.py",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main/torchscript/script.py",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main/torchscript/loop_trace_onnx.py",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main/torchscript/loop_script_onnx.py",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main/torchscript",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main/scheduler/unroll.py",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main/scheduler/tile.py",
+    "B. Forge/Compiler Optimization/tvm_mlir_learn-main/scheduler/tensor_expr_get_started.py",
     "Daily/未命名.canvas",
     "未命名.canvas"
   ]

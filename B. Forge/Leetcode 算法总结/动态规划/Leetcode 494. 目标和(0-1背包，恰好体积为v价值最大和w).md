@@ -78,7 +78,7 @@ def dfs(i, c):
 		return dfs(i - 1, c)
 	return dfs(i - 1, c) + dfs(i - 1, c - nums[i])
 
-# 换成递推式
+# 换成递推式                                           
 
 f = [1] * (target + 1)
 

@@ -1,0 +1,25 @@
+- [ ] https://zhuanlan.zhihu.com/p/464831606
+- [ ] https://zhuanlan.zhihu.com/p/465696096 
+- [ ] https://www.jianshu.com/p/dd9701219b27
+- [ ] [PyTorch Internals 1：源代码调试方法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/106640360)
+- [ ] [pytorch源码解析：Tensor的生成过程（附：gdb对pytorch进行Ｃ语言级调试的过程）_高精度计算机视觉的博客-CSDN博客](https://blog.csdn.net/tanmx219/article/details/86762506)
+- [ ] [编译、调试PyTorch源码 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/450589971)
+- [ ] [Development Tips · pytorch/pytorch Wiki (github.com)](https://github.com/pytorch/pytorch/wiki/Development-Tips)
+- [ ] https://github.com/Meteorix/meteorix-blog/blob/master/_posts/gdbpython.md 
+- [ ] https://github.com/pytorch/pytorch/blob/main/.gdbinit
+- [ ] [C++的可变参数模板 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/104450480)
+- [ ] [NVCOMP | NVIDIA Developer](https://developer.nvidia.com/nvcomp)
+- [ ] Jue WANG, Binhang Yuan, Luka Rimanic, Yongjun He, Tri Dao, Beidi Chen, Christopher Re, Ce Zhang. Fine-tuning Language Models over Slow Networks using Activation Quantization with Guarantees. NeurIPS 2022
+- [ ] [c++ - What are the main purposes of std::forward and which problems does it solve? - Stack Overflow](https://stackoverflow.com/questions/3582001/what-are-the-main-purposes-of-stdforward-and-which-problems-does-it-solve)
+- [ ] [autograd源码剖析 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/336599887)
+- [ ] [PyTorch JIT backward 源码详述(I) - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/381143744)
+- [ ] [C++模板学习实践 - 知乎 (zhihu.com)](https://www.zhihu.com/column/c_1604135403384201217)
+- [ ] [万能引用，引用折叠，移动构造函数，emplace_back及其实现，完美转发及其实现 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/260508149)
+- [ ] [谈谈完美转发(Perfect Forwarding)：完美转发 = 引用折叠 + 万能引用 + std::forward - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/369203981)
+- [ ] [一次对 Pytorch 源码编译过程的解析尝试](https://zhuanlan.zhihu.com/p/120783548)
+- [ ] [linker](https://eli.thegreenplace.net/2013/07/09/library-order-in-static-linking)
+- [ ] [PyTorch源码浅析（一）](https://zhuanlan.zhihu.com/p/34496542)
+- [ ] [pytorch算子实现流程分析（持续更新） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/647196246)
+- [ ] [一个Tensor的生命历程(Pytorch版)](https://oldpan.me/archives/life-of-a-tensor)
+- [ ] [PyTorch源码浅析：简介](https://www.52coding.com.cn/2019/05/05/PyTorch0/)
+- [ ] 

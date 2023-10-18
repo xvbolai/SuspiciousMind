@@ -1,3 +1,2 @@
-
-### 1. ULPPACK: FAST SUB-8-BIT MATRIX MULTIPLY ON COMMODITY SIMD HARDWARE
+- 1. HAQ: Hardware-Aware Automated Quantization with Mixed Precision
 
